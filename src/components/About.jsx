@@ -40,7 +40,7 @@ const About = () => {
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-       Software Engineer that specialised in software development. Currently taking a Graduate Visa for 2 years after graduating from Swinburne University and applying for a permanent resident visa for the next plan. I have excellent skills involving full stack attributes and it is referenced from my past project. I am interested in learning in-depth full stack developers to improve efficiency in the structure.
+       Software Engineer specialising in full stack development; front-end or back-end development adjustable to request. Swinburne University alumni with active Graduate Visa (2 years) with plans of extending to a Permanent Resident Visa. Excellent skills in full stack attributes referenced in past projects viewable below. Prominent interest in learning alongside seasoned full stack developers for future structural efficiency improvement.
 
     </motion.p>
 
