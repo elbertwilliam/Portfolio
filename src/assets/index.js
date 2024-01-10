@@ -29,6 +29,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import dotnet from "./tech/dotnet.png";
 import sql from "./tech/sql.png";
+import supabase from "./tech/supabase.png";
+import svelte from "./tech/svelte.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -77,4 +79,6 @@ export {
   Calculator,
   AtmApp,
   grouptag,
+  svelte,
+  supabase,
 };

@@ -29,6 +29,8 @@ import {
     Calculator,
     AtmApp,
     grouptag,
+    supabase,
+    svelte,
   } from "../assets";
   
   export const navLinks = [
@@ -69,6 +71,14 @@ import {
     {
       name: "HTML 5",
       icon: html,
+    },
+    {
+      name: "Supabase",
+      icon: supabase,
+    },
+    {
+      name: "Svelte",
+      icon: svelte,
     },
     {
       name: "CSS 3",
