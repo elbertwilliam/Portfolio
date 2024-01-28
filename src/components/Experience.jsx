@@ -15,10 +15,11 @@ const ExperienceCard = ({ experience }) => (
   iconStyle={{background: experience.iconBg}}
   icon={
     <div className="flex justify-center items-center w-full h-full">
-      <img onClick={() => window.open("https://www.grouptag.app/")}
+      <img 
+      onClick={() => window.open(experience.link)}
       src={experience.icon}
       alt={experience.company_name}
-      className="transition ease-in-out hover:scale-110 w-[60%] h-[60%] object-contain cursor-pointer"/>
+      className="transition ease-in-out hover:scale-110 w-[60%] h-[60%] object-contain cursor-pointer rounded-full"/>
     </div>
   }>
     <div>

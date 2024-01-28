@@ -31,6 +31,7 @@ import {
     grouptag,
     supabase,
     svelte,
+    fiverr,
   } from "../assets";
   
   export const navLinks = [
@@ -149,6 +150,19 @@ import {
         "Utilised technology: Svelte, Javascript, Tailwind CSS, HTML, Git, Supabase database server.",
         "Responsibilities: Design high quality layouts for front-end web app, develop interactive and functional web app, develop database and routing for back-end server in the web app",
       ],
+      link:"https://www.grouptag.app/",
+    },
+    {
+      title: "Web Developer Freelance",
+      company_name: "Fiverr",
+      icon: fiverr,
+      iconBg: "#383E56",
+      date: "2024",
+      points: [
+        "Utilised technologies: Svelte, Typescript, Javascript, Tailwind CSS, HTML, PSD, XD, and Figma.",
+        "Responsibilities : Coverting Figma, PSD, and XD to responsive HTML, CSS,  React, or Svelte web application.Fix and edit HTML and CSS codes.",
+      ],
+      link:"https://www.fiverr.com/elbertwilliam/edit-and-fix-your-html-css-react-svelte-and-tailwind",
     },
   ];
   
